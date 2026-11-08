@@ -69,3 +69,9 @@ Your job is to delete all the marker lines and keep the content you want.
     git push -u origin main
     git push origin add-resources 
 ```
+if got error while pushing to github.
+
+use command ``` git pull --rebase origin main``` 
+- 
+   - to pull remote changes and rebase your commits
+   - then use git push -u  origin main 
