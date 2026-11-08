@@ -50,3 +50,6 @@ I'm learning Git and version control to track my work.
     - creates a new branch and moves to that new branch 
 9. ``` git branch ``` 
     - it will show the current working branch and remaining branches.
+
+10. ``` git checkout main```
+    - to return back to main branch we use this command 
