@@ -11,6 +11,7 @@ I'm learning Git and version control to track my work.
 - Push my work to GitHub
 
 ## What I Learned Today
+
 - Git is like a time machine for your files
 - Every commit is a snapshot you can go back to
 - Git tracks changes to files over time
@@ -19,40 +20,41 @@ I'm learning Git and version control to track my work.
 
 ## Commands Used
 
-1. ```git version```
+1. `git version`
 
-        -- to know the version of git
+   -- to know the version of git
 2. git config commands
-    ```
-     git config --global user.name "Your Name"
-   
-     git config --global user.email "your-email@example.com"
-
-     git config --global --list
    ```
-3. ```cd "file path"``` -- to move into working directory
+      git config --global user.name "Your Name"
 
-4. ```git init ``` -- to make folder into repo and git will create git folder so it track changes in it 
-   ```git add learning-log.md ``` -- add files in staging area .
+      git config --global user.email "your-email@example.com"
 
-    - '''staging area ''' is the place where files will be places before commit or saving permanently also called index
+      git config --global --list
+   ```
+3. `cd "file path"` -- to move into working directory
+4. `git init`  -- to make folder into repo and git will create git folder so it track changes in it
 
-   ```git commit -m "Add initial learning log" ``` -- it will commit the files with a message .
+   `git add learning-log.md`  -- add files in staging area .
+   - '''staging area ''' is the place where files will be places before commit or saving permanently also called index
 
-5. ``` git log```  -- to verify the commits or to check the changes history .
+    `git commit -m "Add initial learning log"`  -- it will commit the files with a message .
+5.  `git log`  -- to verify the commits or to check the changes history .
+6.  `git status` -- to check current status of your repo and
 
-6. ``` git status``` -- to check current status of your repo and 
-                        confirm is your working directory is clean by running command.
+   confirm is your working directory is clean by running command.
+7. `git log --oneline` - to view compact version of commit history.
+8. `git checkout -b add-resources`
+   - creates a new branch and moves to that new branch
+9. `git branch`
+   - it will show the current working branch and remaining branches.
+10.  `git checkout main`
+    - to return back to main branch we use this command
+11. `git merge <branch name>`
+    - this will merge the given branch into current working brnach
 
-7. ```git log --oneline``` - to view compact version of commit history.
+What do these conflict markers mean?
+The section between <<<<<<< HEAD and ======= is what is on your current branch (main).
+The section between ======= and >>>>>>> add-resources is what is on the branch you are merging in.
+Your job is to delete all the marker lines and keep the content you want.
 
-8. ``` git checkout -b add-resources ```  
-    - creates a new branch and moves to that new branch 
-9. ``` git branch ``` 
-    - it will show the current working branch and remaining branches.
-
-10. ``` git checkout main```
-    - to return back to main branch we use this command 
-
-11. ```git merge <branch name>``` 
-    - this will merge the given branch into current working brnach 
+12.
