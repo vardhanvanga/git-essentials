@@ -53,3 +53,6 @@ I'm learning Git and version control to track my work.
 
 10. ``` git checkout main```
     - to return back to main branch we use this command 
+
+11. ```git merge <branch name>``` 
+    - this will merge the given branch into current working brnach 
