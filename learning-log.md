@@ -12,6 +12,8 @@ I'm learning Git and version control to track my work.
 
 ## What I Learned Today
 - Git tracks changes to files over time
+- Branches let you experiment without affecting the main project
+- You can merge branches back together when ready
 
 ## Commands Used
 
@@ -41,3 +43,8 @@ I'm learning Git and version control to track my work.
                         confirm is your working directory is clean by running command.
 
 7. ```git log --oneline``` - to view compact version of commit history.
+
+8. ``` git checkout -b add-resources ```  
+    - creates a new branch and moves to that new branch 
+9. ``` git branch ``` 
+    - it will show the current working branch and remaining branches.
