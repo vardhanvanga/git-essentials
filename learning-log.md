@@ -34,3 +34,10 @@ I'm learning Git and version control to track my work.
     - '''staging area ''' is the place where files will be places before commit or saving permanently also called index
 
    ```git commit -m "Add initial learning log" ``` -- it will commit the files with a message .
+
+5. ``` git log```  -- to verify the commits or to check the changes history .
+
+6. ``` git status``` -- to check current status of your repo and 
+                        confirm is your working directory is clean by running command.
+
+7. ```git log --oneline``` - to view compact version of commit history.
