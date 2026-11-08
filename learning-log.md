@@ -57,4 +57,5 @@ The section between <<<<<<< HEAD and ======= is what is on your current branch (
 The section between ======= and >>>>>>> add-resources is what is on the branch you are merging in.
 Your job is to delete all the marker lines and keep the content you want.
 
-12.
+12. ```git log --online --graph ``` 
+    -- it will create the graph commits or log 
