@@ -59,3 +59,13 @@ Your job is to delete all the marker lines and keep the content you want.
 
 12. ```git log --online --graph ``` 
     -- it will create the graph commits or log 
+
+- Connect to local repo to GitHub and push 
+
+
+``` 
+    git remote add origin https://github.com/your GitHub username/git-learning-log.git
+    git branch -M main
+    git push -u origin main
+    git push origin add-resources 
+```
